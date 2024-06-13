@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        //noinspection JcenterRepositoryObsolete
+        jcenter()
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        //noinspection JcenterRepositoryObsolete
+        jcenter()
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "testyolov8"
+include ':app'
